@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomBaseButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="backgroundTint">#333333</item>
+        <item name="android:insetLeft">5dp</item>
+        <item name="android:insetRight">5dp</item>
+        <item name="android:insetTop">5dp</item>
+        <item name="android:insetBottom">5dp</item>
+        <item name="cornerRadius">500dp</item>
+
+    </style>
+
+    <style name="CustomBaseButton.CustomBlackButton" parent="CustomBaseButton">
+        <item name="android:backgroundTint">#333333</item>
+    </style>
+    <style name="CustomBaseButton.CustomOrangeButton">
+        <item name="android:backgroundTint">#FF9C0C</item>
+    </style>
+</resources>
